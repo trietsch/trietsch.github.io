@@ -1,0 +1,95 @@
+baseurl      = "localhost"
+title        = "Robin Trietsch"
+languageCode = "en-us"
+theme        = "hello-friend-ng"
+paginate     = 10
+
+[params]
+dateform        = "Jan 2, 2006"
+dateformShort   = "Jan 2"
+dateformNum     = "2006-01-02"
+dateformNumTime = "2006-01-02 15:04"
+
+# Subtitle for home
+homeSubtitle = "Freelance Senior Software Engineer and Architect"
+
+# Set disableReadOtherPosts to true in order to hide the links to other posts.
+disableReadOtherPosts = false
+
+# Enable sharing buttons, if you like
+enableSharingButtons = false
+
+# Show a global language switcher in the navigation bar
+enableGlobalLanguageMenu = false
+
+enableThemeToggle = true
+
+# Metadata mostly used in document's head
+description = "Freelance Senior Software Engineer and Architect"
+keywords = "cv, bio"
+images = [""]
+
+[params.logo]
+templatePath = "/images/trietsch.dev-logo-$theme.png"
+alt = "logo"
+#logoMark     = "$"
+#logoText     = " trietsch.dev"
+#logoHomeLink = "/"
+# Set true to remove the logo cursor entirely.
+# logoCursorDisabled = false
+# Set to a valid CSS color to change the cursor in the logo.
+# logoCursorColor    = "#67a2c9"
+# Set to a valid CSS time value to change the animation duration, "0s" to disable.
+# logoCursorAnimate  = "2s"
+# Append the current url pathname to logoText
+# logoCursorPathname = true
+
+[taxonomies]
+category = "blog"
+tag      = "tags"
+series   = "series"
+
+# And you can even create generic menu
+[[menu.main]]
+identifier = "about"
+name       = "About"
+url        = "/about"
+[[menu.main]]
+identifier = "projects"
+name       = "Projects"
+url        = "/projects"
+
+
+[params.portrait]
+path     = "https://secure.gravatar.com/avatar/ab173c973360d7258e806fa6d001c075?s=800"
+alt      = "Portrait"
+maxWidth = "250px"
+
+[[params.social]]
+name = "email"
+url  = "mailto:contact@trietsch.dev"
+
+[[params.social]]
+name = "github"
+url  = "https://github.com/trietsch"
+
+[[params.social]]
+name = "gitlab"
+url  = "https://gitlab.com/trietsch"
+
+[[params.social]]
+name = "linkedin"
+url  = "https://www.linkedin.com/in/robintrietsch/"
+
+[[params.social]]
+name = "stackoverflow"
+url  = "https://stackoverflow.com/users/2851837/robin-trietsch?tab=profile"
+
+[params.footer]
+trademark = ""
+rss = false
+copyright = true
+author = false
+
+topText = []
+bottomText = []
