@@ -29,6 +29,11 @@ description = "Freelance Senior Software Engineer and Architect"
 keywords = "cv, bio"
 images = [""]
 
+[markup]
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
+
 [params.logo]
 templatePath = "/images/trietsch.dev-logo-$theme.png"
 alt = "logo"
@@ -55,9 +60,21 @@ identifier = "about"
 name       = "About"
 url        = "/about"
 [[menu.main]]
-identifier = "projects"
-name       = "Projects"
-url        = "/projects"
+identifier = "experience"
+name       = "Experience"
+url        = "/experience"
+[[menu.main]]
+identifier = "talks"
+name       = "Talks"
+url        = "/talks"
+[[menu.main]]
+identifier = "blog"
+name       = "Blog"
+url        = "/blog"
+[[menu.main]]
+identifier = "tech"
+name       = "Tech"
+url        = "/tech"
 
 
 [params.portrait]
