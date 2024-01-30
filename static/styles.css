@@ -1,0 +1,26 @@
+body {
+    --banana-yellow: #fddc85;
+    --banana-orange: #ffbd66;
+    --banana-orange-brown: #f1bb6b;
+}
+
+.experience-heading {
+    margin-bottom: 0 !important;
+}
+
+.experience-company {
+    color: var(--banana-orange-brown);
+    font-weight: bold;
+    margin-top: unset;
+}
+
+.experience-dates {
+    margin-bottom: unset;
+    text-align: right;
+}
+
+.experience-location {
+    font-style: italic;
+    margin-top: unset;
+    text-align: right;
+}

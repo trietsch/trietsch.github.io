@@ -29,10 +29,17 @@ description = "Freelance Senior Software Engineer and Architect"
 keywords = "cv, bio"
 images = [""]
 
+customCSS = ["/styles.css"]
+
 [markup]
 [markup.goldmark]
 [markup.goldmark.renderer]
-unsafe = true
+unsafe = false
+
+[markup.goldmark.parser]
+[markup.goldmark.parser.attribute]
+block = true
+title = true
 
 [params.logo]
 templatePath = "/images/trietsch.dev-logo-$theme.png"
