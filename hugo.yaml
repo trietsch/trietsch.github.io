@@ -1,0 +1,76 @@
+baseurl: localhost
+title: Robin Trietsch
+languageCode: en-us
+theme: hello-friend-ng
+paginate: 10
+copyright: 'Phone: <a href="tel:+31630561402">+31 6 30 56 14 02</a></br>Citadel 83, Zaltbommel, The Netherlands</br>KvK: <a href="https://www.kvk.nl/zoeken/handelsregister/?kvknummer=92661289" target="_blank">92661289</a> • BTW ID: NL<a href="https://ec.europa.eu/taxation_customs/vies/#/vat-validation" target="_blank">004969240B24</a>'
+params:
+  author:
+    name: Robin Trietsch
+  dateform: Jan 2, 2006
+  dateformShort: Jan 2
+  dateformNum: 2006-01-02
+  dateformNumTime: 2006-01-02 15:04
+  homeSubtitle: Freelance Senior Software Engineer and Architect
+  disableReadOtherPosts: false
+  enableSharingButtons: true
+  enableGlobalLanguageMenu: false
+  enableThemeToggle: true
+  description: Freelance Senior Software Engineer and Architect
+  keywords: cv,bio,software,engineer,architect,developer,consultant,contractor,contracting,freelance,polyglot
+  images: []
+  customCSS:
+    - /styles.css
+  logo:
+    templatePath: /images/trietsch.dev-logo-$theme.png
+    alt: logo
+  portrait:
+    path: https://secure.gravatar.com/avatar/ab173c973360d7258e806fa6d001c075?s=800
+    alt: Portrait
+    maxWidth: 250px
+  social:
+    - name: phone
+      url: tel:+31630561402
+    - name: email
+      url: mailto:contact@trietsch.dev
+    - name: github
+      url: https://github.com/trietsch
+    - name: gitlab
+      url: https://gitlab.com/trietsch
+    - name: linkedin
+      url: https://www.linkedin.com/in/robintrietsch/
+    - name: stackoverflow
+      url: https://stackoverflow.com/users/2851837/robin-trietsch?tab=profile
+  footer:
+    trademark: ""
+    rss: false
+    copyright: true
+    author: false
+    topText: []
+    bottomText: []
+markup:
+  goldmark:
+    renderer:
+      unsafe: false
+    parser:
+      attribute:
+        block: true
+        title: true
+taxonomies:
+  category: blog
+  tag: tags
+  series: series
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about
+    - identifier: experience
+      name: Experience
+      url: /experience
+    - identifier: talks-and-blog
+      name: Talks and Blog
+      url: /talks-and-blog
+    - identifier: tech
+      name: Tech
+      url: /tech

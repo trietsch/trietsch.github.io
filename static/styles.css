@@ -24,3 +24,21 @@ body {
     margin-top: unset;
     text-align: right;
 }
+
+#logo-wrapper {
+    width: 100%;
+    position: relative;
+}
+
+#logo-wrapper img {
+    max-width: 100%;
+}
+
+#anchor-banana {
+    /*border: 1px solid var(--banana-yellow);*/
+    height: 58%;
+    width: 6.75%;
+    position: absolute;
+    left: 51.1%;
+    top: 28%;
+}
