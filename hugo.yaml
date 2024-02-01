@@ -3,7 +3,7 @@ title: Robin Trietsch
 languageCode: en-us
 theme: hello-friend-ng
 paginate: 10
-copyright: 'Phone: <a href="tel:+31630561402">+31 6 30 56 14 02</a></br>Citadel 83, Zaltbommel, The Netherlands</br>KvK: <a href="https://www.kvk.nl/zoeken/handelsregister/?kvknummer=92661289" target="_blank">92661289</a> • BTW ID: NL<a href="https://ec.europa.eu/taxation_customs/vies/#/vat-validation" target="_blank">004969240B24</a>'
+copyright: 'Phone: <a href="tel:+31630561402">+31 6 30 56 14 02</a></br>Citadel 83, Zaltbommel, The Netherlands</br>CoC: <a href="https://www.kvk.nl/zoeken/handelsregister/?kvknummer=92661289" target="_blank">92661289</a> • VAT: NL<a href="https://ec.europa.eu/taxation_customs/vies/#/vat-validation" target="_blank">004969240B24</a>'
 params:
   author:
     name: Robin Trietsch
@@ -25,7 +25,7 @@ params:
     templatePath: /images/trietsch.dev-logo-$theme.png
     alt: logo
   portrait:
-    path: https://secure.gravatar.com/avatar/ab173c973360d7258e806fa6d001c075?s=800
+    path: /images/portrait.jpeg
     alt: Portrait
     maxWidth: 250px
   social:
@@ -41,6 +41,8 @@ params:
       url: https://www.linkedin.com/in/robintrietsch/
     - name: stackoverflow
       url: https://stackoverflow.com/users/2851837/robin-trietsch?tab=profile
+    - name: whatsapp
+      url: https://wa.me/+31630561402
   footer:
     trademark: ""
     rss: false
