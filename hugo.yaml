@@ -32,7 +32,7 @@ params:
     - name: phone
       url: tel:+31630561402
     - name: email
-      url: mailto:contact@trietsch.dev
+      url: "mailto:contact@trietsch.dev?subject=Contact form trietsch.dev"
     - name: github
       url: https://github.com/trietsch
     - name: gitlab
