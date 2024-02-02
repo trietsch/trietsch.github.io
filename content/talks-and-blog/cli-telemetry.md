@@ -10,6 +10,8 @@ title: How can CLI usage be measured, while respecting end-user's privacy?
 weight: 10
 ---
 
+_Originally posted on [dev.to](https://dev.to/trietsch/how-can-cli-usage-be-measured-while-respecting-end-users-privacy-4gmg)_
+
 The CLI is a critical part of the developer experience. Often, it's the first interface for developers to interact with your product. However, with Open Source products, it's difficult to know if and how end-users are using your product. Even though telemetry data might be very interesting for the product team, it's important to respect the end-user's privacy; we need to ensure that no sensitive data is collected.
 
 > Only collect data on how end-users use the CLI to interact with your product, and stay inside those boundaries.
@@ -104,7 +106,7 @@ operating_system: darwin # macOS
 id: 36be4c46-4e1b-431d-b9db-1b315f537a85 # a random identifier of this cli instance.
 ```
 
-The structure is pretty much self-explanatory, but in summary, we collect the amount of times a specific command was executed, and what the exit code was. Furthermore, we also collect the CLI version, the operating system, and a assign a random identifier to your specific CLI instance, in order to be able to determine the amount of unique users. This is
+The structure is pretty much self-explanatory, but in summary, we collect the amount of times a specific command was executed, and what the exit code was. Furthermore, we also collect the CLI version, the operating system, and assign a random identifier to your specific CLI instance, in order to be able to determine the amount of unique users. This is
 a random UUID, which is not linked in any way to you, your organization, or your machine deterministically (feel free to take a look at the [CLI source code](https://github.com/getstrm/cli/blob/main/pkg/entity/metrics/metrics.go#L185)).
 
 ## Sending the telemetry data to getSTRM

@@ -42,3 +42,34 @@ body {
     left: 51.1%;
     top: 28%;
 }
+
+.imageandtext {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5em;
+}
+
+.imageandtext #image {
+    flex: 1 0 auto;
+}
+
+.imageandtext #image img {
+    display: block;
+    height: auto;
+    max-width: 6em;
+    min-width: 4em;
+}
+
+[data-theme=dark] .imageandtext #image img {
+    /* Thanks @ https://angel-rs.github.io/css-color-filter-generator/ */
+    filter: brightness(0) saturate(100%) invert(73%) sepia(6%) saturate(286%) hue-rotate(202deg) brightness(91%) contrast(98%);
+}
+
+[data-theme=light] .imageandtext #image img {
+    filter: brightness(0) saturate(100%) invert(4%) sepia(36%) saturate(404%) hue-rotate(314deg) brightness(97%) contrast(80%);
+}
+
+.imageandtext #text {
+    margin-top: auto;
+    margin-bottom: auto;
+}
