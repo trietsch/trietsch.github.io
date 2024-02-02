@@ -125,13 +125,13 @@ monitoring stack.
 ## Actually sending the telemetry data to getSTRM
 
 After the challenge with getting data into Grafana Cloud, we were able to draw the entire architecture of the telemetry collection system.
-![CLI telemetry](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/kalay7tt7m3mugnbwvzu.png)
+![CLI telemetry](./cli-telemetry-architecture.png)
 
 As you can see in the diagram, the CLI periodically sends the collected telemetry from the file to the Google Cloud Function. As requests to Graphite in Grafana Cloud need an API key, a cloud function is a proper way to protect the API key from being exposed.
 The role of the Cloud Function is merely to transform the incoming telemetry data into the format that Graphite expects. Each (sub)command is translated into a `tag` in Graphite (which corresponds with a label in Prometheus), as well as the `cli_version`, `operating_system`, `id` and exit code.
 
 The end result of this entire process is a Grafana dashboard, of which a screenshot is shown below.
-![grafana dashboard](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/26xyn0q52qn2h88t6onp.png)
+![grafana dashboard](./cli-telemetry-grafana-dashboard.png)
 
 ## Conclusion
 
