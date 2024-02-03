@@ -43,33 +43,33 @@ body {
     top: 28%;
 }
 
-.imageandtext {
+.flex-container {
     display: flex;
-    align-items: center;
-    margin-bottom: 1.5em;
+    align-items: center; /* Vertically align image and text */
 }
 
-.imageandtext #image {
-    flex: 1 0 auto;
+.image-container {
+    width: 50px; /* Fixed width for the image container */
+    display: flex;
+    flex: 0 0 auto;
+    align-items: center; /* Vertically center the SVG within its container */
+    justify-content: center; /* Horizontally center the SVG within its container */
 }
 
-.imageandtext #image img {
-    display: block;
-    height: auto;
-    max-width: 6em;
-    min-width: 4em;
+.image-container img {
+    max-width: 100%; /* Ensure SVG doesn't overflow its container */
+    height: auto; /* Maintain aspect ratio */
 }
 
-[data-theme=dark] .imageandtext #image img {
+.text-container {
+    margin-left: 30px; /* Adjust spacing between image and text */
+}
+
+[data-theme=dark] .image-container img {
     /* Thanks @ https://angel-rs.github.io/css-color-filter-generator/ */
     filter: brightness(0) saturate(100%) invert(73%) sepia(6%) saturate(286%) hue-rotate(202deg) brightness(91%) contrast(98%);
 }
 
-[data-theme=light] .imageandtext #image img {
+[data-theme=light] .image-container img {
     filter: brightness(0) saturate(100%) invert(4%) sepia(36%) saturate(404%) hue-rotate(314deg) brightness(97%) contrast(80%);
-}
-
-.imageandtext #text {
-    margin-top: auto;
-    margin-bottom: auto;
 }

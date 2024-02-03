@@ -11,12 +11,12 @@ params:
   dateformShort: Jan 2
   dateformNum: 2006-01-02
   dateformNumTime: 2006-01-02 15:04
-  homeSubtitle: Freelance Senior Software Engineer and Architect
+  homeSubtitle: Senior Software Engineer and Architect
   disableReadOtherPosts: false
   enableSharingButtons: true
   enableGlobalLanguageMenu: false
   enableThemeToggle: true
-  description: Freelance Senior Software Engineer and Architect
+  description: Senior Software Engineer and Architect
   keywords: cv,bio,software,engineer,architect,developer,consultant,contractor,contracting,freelance,polyglot
   images: []
   customCSS:
