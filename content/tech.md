@@ -16,7 +16,7 @@ As always, if a specific technology is a better fit for the problem, I will choo
 ## Languages
 
 {{< imageandtext img="/icons/kotlin.svg" text="Kotlin:</br><b>experienced</b>" >}}
-{{< imageandtext img="/icons/java.svg" text="Java:</br><b>experienced</b> (I mostly work in Kotlin)" >}}
+{{< imageandtext img="/icons/java.svg" text="Java:</br><b>experienced</b> (Java 17+; though I work mostly in Kotlin)" >}}
 {{< imageandtext img="/icons/golang.svg" text="Go:</br><b>skilled</b>" >}}
 {{< imageandtext img="/icons/python.svg" text="Python:</br><b>experienced</b>" >}}
 {{< imageandtext img="/icons/typescript.svg" text="TypeScript:</br><b>skilled</b>" >}}
@@ -28,6 +28,13 @@ As always, if a specific technology is a better fit for the problem, I will choo
 {{< imageandtext img="/icons/rest-api.svg" text="REST APIs:</br><b>experienced</b> (client and server)" >}}
 {{< imageandtext img="/icons/grpc.svg" text="gRPC, Protocol buffers, <a href=\"https://buf.build\">buf.build</a>:</br><b>experienced</b> (client and server; Java, Kotlin, Python, Golang, TypeScript)" >}}
 {{< imageandtext img="/icons/graphql.svg" text="GraphQL:</br><b>skilled</b> (mostly client side, some server experience on the JVM)" >}}
+
+## Build tools and package managers
+
+{{< imageandtext img="/icons/gradle.svg" text="Gradle:</br><b>experienced</b>" >}}
+{{< imageandtext img="/icons/apache-maven.svg" text="Maven:</br><b>experienced</b>" >}}
+{{< imageandtext img="/icons/npm.svg" text="npm:</br><b>skilled</b>" >}}
+{{< imageandtext img="/icons/golang.svg" text="Go modules:</br><b>skilled</b>" >}}
 
 ## Frameworks
 
@@ -95,6 +102,7 @@ I have been using all major public clouds for several years, but I have the most
 {{< imageandtext img="/icons/strimzi.svg" text="Strimzi:</br><b>experienced</b>" >}}
 {{< imageandtext img="/icons/envoyproxy.svg" text="Envoy Proxy:</br><b>experienced</b>" >}}
 {{< imageandtext img="/icons/nginx.svg" text="Nginx:</br><b>experienced</b>" >}}
+{{< imageandtext img="/icons/bufbuild.svg" text="buf.build:</br><b>experienced</b>" >}}
 
 
 ## Miscellaneous and development tools
