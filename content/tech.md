@@ -58,9 +58,14 @@ I have worked with all different kinds of databases, but mostly with PostgreSQL.
 
 ## Serialization
 
-{{< imageandtext img="/icons/protobuf.svg" text="Protocol Buffers:</br><b>experienced</b>" >}}
+{{< imageandtext img="/icons/protobuf.png" text="Protocol Buffers:</br><b>experienced</b>" >}}
 {{< imageandtext img="/icons/json.svg" text="JSON:</br><b>experienced</b>" >}}
 {{< imageandtext img="/icons/avro.svg" text="Avro:</br><b>experienced</b>" >}}
+
+## Infrastructure and fundamentals
+
+{{< imageandtext img="/icons/dns.svg" text="DNS:</br><b>experienced</b>" >}}
+{{< imageandtext img="/icons/http2.svg" text="HTTP/2:</br><b>experienced</b>" >}}
 
 ## Clouds
 
@@ -72,8 +77,8 @@ I have been using all major public clouds for several years, but I have the most
 
 ## CI/CD
 
-{{< imageandtext img="/icons/github-actions.svg" text="GitHub Actions:</br><b>experienced</b>" >}}
-{{< imageandtext img="/icons/gitlab-ci.svg" text="GitLab CI:</br><b>skilled</b>" >}}
+{{< imageandtext img="/icons/github.svg" text="GitHub Actions:</br><b>experienced</b>" >}}
+{{< imageandtext img="/icons/gitlab.svg" text="GitLab CI:</br><b>skilled</b>" >}}
 {{< imageandtext img="/icons/semantic-release.svg" text="Semantic Release:</br><b>experienced</b>" >}}
 {{< imageandtext img="/icons/renovate-bot.svg" text="Renovate Bot:</br><b>experienced</b>" >}}
 
@@ -96,8 +101,8 @@ I have been using all major public clouds for several years, but I have the most
 
 It does not really make sense to specify an experience level for the tools below. I am using them all on a daily basis, and I am very comfortable with them. I left all the chat apps out of this list, but I have used the lot. 
 
-{{< imageandtext img="/icons/linux-gnu.svg" text="Linux / GNU" >}}
-{{< imageandtext img="/icons/visual-studio-code.svg" text="Visual Studio Code" >}}
+{{< imageandtext img="/icons/linux.svg" text="Linux / GNU" >}}
+{{< imageandtext img="/icons/vscode.svg" text="Visual Studio Code" >}}
 {{< imageandtext img="/icons/intellij-idea.svg" text="IntelliJ IDEA" >}}
 {{< imageandtext img="/icons/vim.svg" text="Vim" >}}
 {{< imageandtext img="/icons/iterm2.svg" text="iTerm2" >}}
@@ -123,4 +128,6 @@ Tools that I have been using in the past, but have not been using for quite some
 {{< imageandtext img="/icons/parquet.svg" text="Parquet" >}}
 {{< imageandtext img="/icons/jenkins.svg" text="Jenkins" >}}
 
+
+_All icons are licensed under the [CC0 license](https://creativecommons.org/publicdomain/zero/1.0/) and belong to their respective owners._
 
