@@ -15,95 +15,105 @@ As always, if a specific technology is a better fit for the problem, I will choo
 
 ## Languages
 
-{{< imageandtext img="/icons/kotlin.svg" text="Kotlin:</br><b>experienced</b>" >}}
-{{< imageandtext img="/icons/java.svg" text="Java:</br><b>experienced</b> (Java 17+; though I work mostly in Kotlin)" >}}
-{{< imageandtext img="/icons/golang.svg" text="Go:</br><b>skilled</b>" >}}
-{{< imageandtext img="/icons/python.svg" text="Python:</br><b>experienced</b>" >}}
-{{< imageandtext img="/icons/typescript.svg" text="TypeScript:</br><b>skilled</b>" >}}
-{{< imageandtext img="/icons/hashicorp-hcl.svg" text="HashiCorp HCL:</br><b>experienced</b>" >}}
+{{< imageandtext img="/icons/kotlin.svg" text="<a href=\"https://kotlinlang.org/\" target=\"_blank\">Kotlin</a>: <b>experienced</b></br>I know the stdlib very well and I can use coroutines / flows; but I'm always eager to improve my Kotlin skills." >}}
+{{< imageandtext img="/icons/java.svg" text="<a href=\"https://www.oracle.com/java/technologies/downloads/\" target=\"_blank\">Java</a>: <b>experienced</b></br>Java 17+; though I work mostly in Kotlin." >}}
+{{< imageandtext img="/icons/golang.svg" text="<a href=\"https://go.dev/\" target=\"_blank\">Go</a>: <b>skilled</b></br>mostly used Golang for writing cross-platform / architecture <a href=\"https://github.com/spf13/cobra\" target=\"_blank\">CLIs</a> and for <a href=\"https://cloud.google.com/functions/docs/concepts/go-runtime\" target=\"_blank\">serverless functions</a>." >}}
+{{< imageandtext img="/icons/python.svg" text="<a href=\"https://www.python.org/\" target=\"_blank\">Python</a>: <b>experienced</b></br>I mostly use Python for <a href=\"https://github.com/trietsch/xbar\" target=\"_blank\">scripting</a> and <a href=\"https://pandas.pydata.org/\" target=\"_blank\">data analysis</a>." >}}
+{{< imageandtext img="/icons/typescript.svg" text="<a href=\"https://www.typescriptlang.org/\" target=\"_blank\">TypeScript</a>: <b>skilled</b></br>better than writing JS of course; I use TypeScript for frontend apps and for <a href=\"https://github.com/trietsch/io.quatt\" target=\"_blank\">certain environments</a> that require node." >}}
+{{< imageandtext img="/icons/hashicorp-hcl.svg" text="<a href=\"https://github.com/hashicorp/hcl\" target=\"_blank\">HashiCorp HCL</a>: <b>experienced</b></br>really like this IaC language, which I use for <a href=\"https://www.terraform.io/\" target=\"_blank\">Terraform</a> and <a href=\"https://www.nomadproject.io/\" target=\"_blank\">Nomad</a>." >}}
 
 
 ## Transport protocols
 
-{{< imageandtext img="/icons/rest-api.svg" text="REST APIs:</br><b>experienced</b> (client and server)" >}}
-{{< imageandtext img="/icons/grpc.svg" text="gRPC, Protocol buffers, <a href=\"https://buf.build\">buf.build</a>:</br><b>experienced</b> (client and server; Java, Kotlin, Python, Golang, TypeScript)" >}}
-{{< imageandtext img="/icons/graphql.svg" text="GraphQL:</br><b>skilled</b> (mostly client side, some server experience on the JVM)" >}}
+{{< imageandtext img="/icons/rest-api.svg" text="REST APIs: <b>experienced</b></br>client and server apps in various languages and frameworks, resource oriented design and following the <a href=\"https://opensource.zalando.com/restful-api-guidelines/\" target=\"_blank\">Zalando API guidelines</a>." >}}
+{{< imageandtext img="/icons/grpc.svg" text="<a href=\"https://grpc.io/\" target=\"_blank\">gRPC</a>: <b>experienced</b></br>client and server, using protobuf and <a href=\"https://buf.build\">buf.build</a>, in Java, Kotlin, Python, Golang, TypeScript." >}}
+{{< imageandtext img="/icons/graphql.svg" text="<a href=\"https://graphql.org/\" target=\"_blank\">GraphQL</a>: <b>skilled</b></br>mostly client side, some server experience on the JVM." >}}
 
 ## Build tools and package managers
 
-{{< imageandtext img="/icons/gradle.svg" text="Gradle:</br><b>experienced</b>" >}}
-{{< imageandtext img="/icons/apache-maven.svg" text="Maven:</br><b>experienced</b>" >}}
-{{< imageandtext img="/icons/npm.svg" text="npm:</br><b>skilled</b>" >}}
-{{< imageandtext img="/icons/golang.svg" text="Go modules:</br><b>skilled</b>" >}}
+{{< imageandtext img="/icons/gradle.svg" text="<a href=\"https://gradle.org/\" target=\"_blank\">Gradle</a>: <b>experienced</b></br>I have set up many multimodule Gradle projects, , including artifact signing and publishing (private registry and Sonatype)." >}}
+{{< imageandtext img="/icons/apache-maven.svg" text="<a href=\"https://maven.apache.org/\" target=\"_blank\">Maven</a>: <b>experienced</b></br>Multimodule Maven projects with dependency management and plugin management are not unfamiliar with me, including artifact signing and publishing." >}}
+{{< imageandtext img="/icons/npm.svg" text="<a href=\"https://www.npmjs.com/\" target=\"_blank\">npm</a>: <b>skilled</b></br>Using packages and publishing packages, nothing special here." >}}
+{{< imageandtext img="/icons/golang.svg" text="<a href=\"https://go.dev/blog/using-go-modules\" target=\"_blank\">Go modules</a>: <b>skilled</b>" >}}
 
 ## Frameworks
 
-{{< imageandtext img="/icons/springboot.svg" text="Spring Boot:</br><b>skilled</b> (at my last job, I have been using vanilla Kotlin mostly)" >}}
-{{< imageandtext img="/icons/ktor.svg" text="Ktor:</br><b>skilled</b>" >}}
-{{< imageandtext img="/icons/nextjs.svg" text="Next.js:</br><b>skilled</b>" >}}
-{{< imageandtext img="/icons/react.svg" text="React:</br><b>skilled</b>" >}}
+{{< imageandtext img="/icons/springboot.svg" text="<a href=\"https://spring.io/projects/spring-boot\" target=\"_blank\">Spring Boot</a>: <b>skilled</b></br>at my last job, I have been using vanilla Kotlin mostly." >}}
+{{< imageandtext img="/icons/ktor.svg" text="<a href=\"https://ktor.io/\" target=\"_blank\">Ktor</a>: <b>skilled</b></br>briefly used Ktor server, but it was <a href=\"https://youtrack.jetbrains.com/issue/KTOR-1501\" target=\"_blank\">missing gRPC support</a>, therefore switched to vanilla Kotlin; used Ktor client quite often." >}}
+{{< imageandtext img="/icons/nextjs.svg" text="<a href=\"https://nextjs.org/\" target=\"_blank\">Next.js</a>: <b>starter</b></br>I have done (simple) modifications to various Next.js apps." >}}
+{{< imageandtext img="/icons/react.svg" text="<a href=\"https://react.dev/\" target=\"_blank\">React</a>: <b>starter</b></br>I have done a React course and have explored the usage of gRPC Unary RPCs with TanStack Query." >}}
 
 ## Standards
 
-{{< imageandtext img="/icons/openapi.svg" text="OpenAPI:</br><b>experienced</b>" >}}
-{{< imageandtext img="/icons/oauth2.svg" text="OAuth 2.0:</br><b>experienced</b> (various grant types: authorization code, client credentials, refresh)" >}}
-{{< imageandtext img="/icons/openid.svg" text="OpenID Connect:</br><b>skilled</b>" >}}
-{{< imageandtext img="/icons/json-schema.svg" text="JSON Schema:</br><b>experienced</b>" >}}
-{{< imageandtext img="/icons/conventional-commits.svg" text="Conventional Commits:</br><b>experienced</b>" >}}
+{{< imageandtext img="/icons/openapi.svg" text="<a href=\"https://www.openapis.org/\" target=\"_blank\">OpenAPI</a>: <b>experienced</b></br>Used code generators for various languages, Java, Kotlin (<a href=\"https://github.com/OpenAPITools/openapi-generator/pull/9918\" target=\"_blank\">fixed a bug in the Kotlin code generator</a> for deserializing lists of a class), Python." >}}
+{{< imageandtext img="/icons/oauth2.svg" text="<a href=\"https://oauth.net/2/\" target=\"_blank\">OAuth 2.0</a>: <b>skilled / experienced</b></br>Set up the Identity Provider <a href=\"https://www.keycloak.org/\" target=\"_blank\">Keycloak</a> with multiple realms and <a href=\"https://github.com/p2-inc/keycloak-orgs\" target=\"_blank\">multi-tenancy realms</a> various grant types: authorization code, client credentials, refresh." >}}
+{{< imageandtext img="/icons/openid.svg" text="<a href=\"https://openid.net/\" target=\"_blank\">OpenID Connect</a>: <b>skilled</b>" >}}
+{{< imageandtext img="/icons/json-schema.svg" text="<a href=\"https://json-schema.org/\" target=\"_blank\">JSON Schema</a>: <b>experienced</b></br>Whenever I have to write JSON or YAML, I make sure to use the JSON Schema if available. Also vice versa, I try to provide JSON Schemas whenever possible." >}}
+{{< imageandtext img="/icons/conventional-commits.svg" text="<a href=\"https://conventionalcommits.org/\" target=\"_blank\">Conventional Commits</a>: <b>experienced</b></br>I have set up and managed CI/CD pipelines using Semantic Release and Conventional Commits." >}}
 
 ## Databases, queuing systems and other storage layers
 
 I have worked with all different kinds of databases, but mostly with PostgreSQL. It is easy, fast and reliable to set up and has all the basic needs for a new app. As always, I decide the best fit for the job, so if a different database technology fits better, I will go with that.
 
-{{< imageandtext img="/icons/postgresql.svg" text="PostgreSQL:</br><b>experienced</b>" >}}
-{{< imageandtext img="/icons/bigquery.svg" text="BigQuery:</br><b>skilled</b>" >}}
-{{< imageandtext img="/icons/snowflake.svg" text="Snowflake:</br><b>skilled</b>" >}}
-{{< imageandtext img="/icons/redis.svg" text="Redis:</br><b>experienced</b>" >}}
-{{< imageandtext img="/icons/sqlite.svg" text="SQLite:</br><b>experienced</b>" >}}
-{{< imageandtext img="/icons/cassandra.svg" text="Cassandra:</br><b>starter</b>" >}}
-{{< imageandtext img="/icons/kafka.svg" text="Kafka:</br><b>starter</b>" >}}
+{{< imageandtext img="/icons/postgresql.svg" text="<a href=\"https://www.postgresql.org/\" target=\"_blank\">PostgreSQL</a>: <b>experienced</b></br>The de facto OS solution for a RDBMS, which I have used for many JVM apps." >}}
+{{< imageandtext img="/icons/bigquery.svg" text="<a href=\"https://cloud.google.com/bigquery\" target=\"_blank\">BigQuery</a>: <b>skilled</b></br>Both a consumer (directly and from Google Cloud Dataflow / Apache Beam) and producer (batch loading data from Google Cloud Storage) of data." >}}
+{{< imageandtext img="/icons/snowflake.svg" text="<a href=\"https://www.snowflake.com/\" target=\"_blank\">Snowflake</a>: <b>starter</b>" >}}
+{{< imageandtext img="/icons/redis.svg" text="<a href=\"https://redis.io/\" target=\"_blank\">Redis</a>: <b>experienced</b></br>Used Lua scripts for an atomic operation for concurrent modifications, used pubsub for broadcasting new keys." >}}
+{{< imageandtext img="/icons/sqlite.svg" text="<a href=\"https://www.sqlite.org/index.html\" target=\"_blank\">SQLite</a>: <b>experienced</b>" >}}
+{{< imageandtext img="/icons/cassandra.svg" text="<a href=\"https://cassandra.apache.org/\" target=\"_blank\">Cassandra</a>: <b>starter</b>" >}}
+{{< imageandtext img="/icons/kafka.svg" text="<a href=\"https://kafka.apache.org/\" target=\"_blank\">Kafka</a>: <b>experienced</b></br>Used, tweaked and upgraded various Kafka clusters, on-site and inside Kubernetes clusters (through <a href=\"https://strimzi.io/\" target=\"_blank\">Strimzi</a>). I've used Kafka for data producing and consuming applications, which consisted of either single or multiple replicas." >}}
 
 ## Serialization
 
-{{< imageandtext img="/icons/protobuf.png" text="Protocol Buffers:</br><b>experienced</b>" >}}
-{{< imageandtext img="/icons/json.svg" text="JSON:</br><b>experienced</b>" >}}
-{{< imageandtext img="/icons/avro.svg" text="Avro:</br><b>experienced</b>" >}}
+{{< imageandtext img="/icons/protobuf.png" text="<a href=\"https://protobuf.dev/\" target=\"_blank\">Protocol Buffers</a>: <b>experienced</b></br>my preference for serialization (if the use case allows it), especially combined with gRPC and buf.build." >}}
+{{< imageandtext img="/icons/json.svg" text="<a href=\"https://www.json.org/\" target=\"_blank\">JSON</a>: <b>experienced</b></br>On the JVM, I'm familiar with Jackson and GSON." >}}
+{{< imageandtext img="/icons/avro.svg" text="<a href=\"https://avro.apache.org/\" target=\"_blank\">Apache Avro</a>: <b>skilled</b></br>both JSON and binary based, familiar with `avsc` and `avdl` formats." >}}
 
 ## Infrastructure and fundamentals
 
-{{< imageandtext img="/icons/dns.svg" text="DNS:</br><b>experienced</b>" >}}
-{{< imageandtext img="/icons/http2.svg" text="HTTP/2:</br><b>experienced</b>" >}}
+{{< imageandtext img="/icons/dns.svg" text="DNS: <b>skilled</b></br>know how to set up various DNS records for different purposes; i.e. a single domain with multiple DNS zones." >}}
+{{< imageandtext img="/icons/http2.svg" text="HTTP/2: <b>skilled</b></br>end-to-end HTTP/2 traffic between client and apps running in Google Kubernetes Engine through an ingress and reverse proxy." >}}
+{{< imageandtext img="/icons/load-balancing.svg" text="Load Balancing: <b>skilled</b></br>mostly with reverse proxies and Google Cloud Load Balancing." >}}
 
 ## Clouds
 
 I have been using all major public clouds for several years, but I have the most experience with GCP and AWS. I really like working with GCP, as it's very developer friendly and fast. 
 
-{{< imageandtext img="/icons/gcp.svg" text="GCP:</br><b>experienced</b> (Cloud Functions, Cloud Run, Cloud SQL, Pub/Sub, GKE, Secrets Manager, Load Balancing, Cloud DNS, Cloud KMS, Cloud Storage, Stackdriver, Cloud Endpoints and more.)" >}}
-{{< imageandtext img="/icons/aws.svg" text="AWS:</br><b>skilled</b> (EC2, Redshift, Athena, Glue, S3, and more.)" >}}
-{{< imageandtext img="/icons/azure.svg" text="Azure:</br><b>skilled</b> (AKS, VMs, Azure DevOps, CosmosDB)" >}}
+{{< imageandtext img="/icons/gcp.svg" text="<a href=\"https://cloud.google.com/\" target=\"_blank\">GCP</a>: <b>experienced</b></br>Cloud Functions, Cloud Run, Cloud SQL, Pub/Sub, GKE, Secrets Manager, Load Balancing, Cloud DNS, Cloud KMS, Cloud Storage, Stackdriver, Cloud Endpoints and more." >}}
+{{< imageandtext img="/icons/aws.svg" text="<a href=\"https://aws.amazon.com/\" target=\"_blank\">AWS</a>: <b>skilled</b></br>EC2, Redshift, Athena, Glue, S3, and more." >}}
+{{< imageandtext img="/icons/azure.svg" text="<a href=\"https://azure.microsoft.com/\" target=\"_blank\">Azure</a>: <b>skilled</b></br>AKS, VMs, Azure DevOps, CosmosDB." >}}
 
 ## CI/CD
 
-{{< imageandtext img="/icons/github.svg" text="GitHub Actions:</br><b>experienced</b>" >}}
-{{< imageandtext img="/icons/gitlab.svg" text="GitLab CI:</br><b>skilled</b>" >}}
-{{< imageandtext img="/icons/semantic-release.svg" text="Semantic Release:</br><b>experienced</b>" >}}
-{{< imageandtext img="/icons/renovate-bot.svg" text="Renovate Bot:</br><b>experienced</b>" >}}
+Automation is both my hobby (home automation) and part of my work. I like to set up CI/CD and from my peers I have received the feedback that I am good at it. 
+
+{{< imageandtext img="/icons/github.svg" text="GitHub Actions: <b>experienced</b></br>Set up complex CI/CD pipelines for GitOps, ensuring an always green main branch, enabling collaboration between team members." >}}
+{{< imageandtext img="/icons/gitlab.svg" text="GitLab CI: <b>experienced</b></br>Similar to GitHub Actions, I have performed tasks with the same goal." >}}
+{{< imageandtext img="/icons/semantic-release.svg" text="<a href=\"https://semantic-release.gitbook.io/\" target=\"_blank\">Semantic Release</a>: <b>experienced</b></br>Introduced various teams with the inclusion of Semantic Release in their workflow, which enabled them to use <a href=\"https://conventionalcommits.org/\" target=\"_blank\">Conventional Commits</a> to determine the next semantic version of their application. Codebases consisted of Java, Kotlin, Python, Terraform, Golang, TypeScript, and many more." >}}
+{{< imageandtext img="/icons/renovate-bot.svg" text="<a href=\"https://docs.renovatebot.com/\" target=\"_blank\">Renovate Bot</a>: <b>experienced</b></br>Introduced various teams with Renovate Bot, which enabled them with automatic dependency upgrades, regardless of the language and package manager they were using. Configured Renovate Bot centrally in organizations, to facilitate re-usability (DRY). I also do presentations around this topic, feel free to reach out if you're interested." >}}
 
 ## Tools
 
-{{< imageandtext img="/icons/docker.svg" text="Docker / OCI format:</br><b>experienced</b>" >}}
-{{< imageandtext img="/icons/kubernetes.svg" text="Kubernetes:</br><b>skilled</b>" >}}
-{{< imageandtext img="/icons/helm.svg" text="Helm:</br><b>skilled</b>" >}}
-{{< imageandtext img="/icons/terraform.svg" text="Terraform:</br><b>experienced</b>" >}}
-{{< imageandtext img="/icons/vault.svg" text="Vault:</br><b>starter</b>" >}}
-{{< imageandtext img="/icons/prometheus.svg" text="Prometheus:</br><b>experienced</b>" >}}
-{{< imageandtext img="/icons/grafana.svg" text="Grafana:</br><b>experienced</b> (I'm running my own Grafana instance at home, to collect data that devices at home generate)" >}}
-{{< imageandtext img="/icons/keycloak.svg" text="Keycloak:</br><b>experienced</b>" >}}
-{{< imageandtext img="/icons/strimzi.svg" text="Strimzi:</br><b>experienced</b>" >}}
-{{< imageandtext img="/icons/envoyproxy.svg" text="Envoy Proxy:</br><b>experienced</b>" >}}
-{{< imageandtext img="/icons/nginx.svg" text="Nginx:</br><b>experienced</b>" >}}
-{{< imageandtext img="/icons/bufbuild.svg" text="buf.build:</br><b>experienced</b>" >}}
+{{< imageandtext img="/icons/docker.svg" text="<a href=\"https://www.docker.com/\" target=\"_blank\">Docker</a> / <a href=\"https://opencontainers.org/\" target=\"_blank\">OCI format</a>: <b>experienced</b></br>Built multi-architecture images (Docker Hub, ghcr.io, private registries), both containers and Helm packages shipped in OCI format." >}}
+{{< imageandtext img="/icons/kubernetes.svg" text="<a href=\"https://kubernetes.io/\" target=\"_blank\">Kubernetes</a>: <b>experienced</b></br>Used GKE, k3s, EKS, AKS." >}}
+{{< imageandtext img="/icons/helm.svg" text="<a href=\"https://helm.sh/\" target=\"_blank\">Helm</a>: <b>skilled</b></br>Created and used various Helm <a href=\"https://github.com/strmprivacy/data-plane-helm-chart\" target=\"_blank\">repositories</a>." >}}
+{{< imageandtext img="/icons/terraform.svg" text="<a href=\"https://www.terraform.io/\" target=\"_blank\">Terraform</a>: <b>experienced</b></br>Automate everything is one of my mottos. I have created many Terraform modules to enable re-usability for various teams. I have also used Terraform to create complex large infrastructures across a microservices architecture." >}}
+{{< imageandtext img="/icons/vault.svg" text="<a href=\"https://www.vaultproject.io/\" target=\"_blank\">Vault</a>: <b>starter</b></br>Used together with Kubernetes with the Vault Secrets Injector to facilitate secret management." >}}
+{{< imageandtext img="/icons/prometheus.svg" text="<a href=\"https://prometheus.io/\" target=\"_blank\">Prometheus</a>: <b>experienced</b></br>Experience with both pull and pushed based metric collection, Kubernetes experience with Pod/Service Monitors." >}}
+{{< imageandtext img="/icons/grafana.svg" text="<a href=\"https://grafana.com/\" target=\"_blank\">Grafana</a>: <b>experienced</b></br>Created many dashboards, and I'm also running my own Grafana instance at home, to collect data that devices at home generate." >}}
+{{< imageandtext img="/icons/keycloak.svg" text="<a href=\"https://www.keycloak.org/\" target=\"_blank\">Keycloak</a>: <b>experienced</b></br>Multiple realms and single realms with multi-tenancy." >}}
+{{< imageandtext img="/icons/strimzi.svg" text="<a href=\"https://strimzi.io/\" target=\"_blank\">Strimzi</a>: <b>experienced</b></br>Kafka cluster management within Kubernetes." >}}
+{{< imageandtext img="/icons/envoyproxy.svg" text="<a href=\"https://www.envoyproxy.io/\" target=\"_blank\">Envoy Proxy</a>: <b>experienced</b></br>Created various Envoy Proxies, mostly as sidecar containers, to enable TLS offloading, JWT verification, header additions, CORS handling, etc." >}}
+{{< imageandtext img="/icons/nginx.svg" text="<a href=\"https://www.nginx.com/\" target=\"_blank\">NGINX</a>: <b>skilled</b></br>Used NGINX for various temporary reroutes, and also created an Authorization Server that abused Firebase Authentication to circumvent high cloud costs with NGINX and JavaScript." >}}
+{{< imageandtext img="/icons/bufbuild.svg" text="<a href=\"https://buf.build/\" target=\"_blank\">buf.build</a>: <b>experienced</b></br>Used buf.build since the very beginning. At first only for Protobuf file linting and breaking change detection, later also used the Buf Schema Registry and Remote Packages for easy Protobuf generated artifacts for various languages." >}}
+{{< imageandtext img="/icons/make.svg" text="<a href=\"https://www.gnu.org/software/make/manual/make.html\" target=\"_blank\">Make</a>: <b>skilled</b></br>Whenever I need some scripts for a repository, I prefer to create a Makefile." >}}
 
+## Disciplines
+
+{{< imageandtext img="/icons/git.svg" text="GitOps: <b>experienced</b></br>Automate all the things. I am a big fan of automating infrastructure, because of predictability, portability, and maintainability." >}}
+{{< imageandtext img="/icons/devops.svg" text="DevOps: <b>experienced</b></br>You build it, you maintain it, you take care of it. Your code, your responsibility." >}}
+{{< imageandtext img="/icons/platform-engineering.svg" text="Platform Engineering: <b>experienced</b></br>I have been part of many teams that facilitated and built self-service tools for internal dev teams." >}}
+{{< imageandtext img="/icons/iterative-design.svg" text="Iterative design: <b>experienced</b></br>Start small, improve, repeat." >}}
 
 ## Miscellaneous and development tools
 
