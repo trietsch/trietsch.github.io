@@ -13,6 +13,10 @@ I have been working with a lot of different databases, but mostly with PostgreSQ
 
 As always, if a specific technology is a better fit for the problem, I will choose that, even if that means that I need to learn a new technology. Balance the time spent learning a new technology with the time saved by using it.
 
+## Certifications
+
+{{< imageandtext img="/icons/isaqb.svg" text="<a href=\"https://isaqb.org/\" target=\"_blank\">iSAQB</a> (<b>2021</b>): International Software Architecture Qualification Board (<a href=\"/certifications/isaqb-robin-trietsch.pdf\">view certificate</a>)" >}}
+
 ## Languages
 
 {{< imageandtext img="/icons/kotlin.svg" text="<a href=\"https://kotlinlang.org/\" target=\"_blank\">Kotlin</a>: <b>experienced</b></br>I know the stdlib very well and I can use coroutines / flows; but I'm always eager to improve my Kotlin skills." >}}
