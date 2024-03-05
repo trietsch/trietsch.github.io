@@ -10,7 +10,7 @@ I have been asked a few times why I have a banana on my website. Whilst testing 
 to generate dummy data. You could use a [faker library](https://github.com/DiUS/java-faker) for that. But where's the
 fun in that?
 
-Well, I decide to use fruits as a theme for my dummy data. Whenever you see a banana in the test code, there's a good
+Well, I decided to use fruits as a theme for my dummy data. Whenever you see a banana in the test code, there's a good
 chance that I wrote it.
 
 Next to that, it catches your attention! Which is a good thing, especially when debugging. There's often a large chunk
