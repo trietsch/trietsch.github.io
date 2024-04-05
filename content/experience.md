@@ -8,13 +8,27 @@ name = "Robin Trietsch"
 
 ## Experience
 ---
+### Senior Software Engineer
+{.experience-heading}
+
+bol
+{.experience-company}
+
+March 2024 - present
+{.experience-dates}
+Utrecht, The Netherlands (hybrid)
+{.experience-location}
+
+Improving search at bol.
+
+---
 ### Senior Software Engineer, Architect & Team Lead
 {.experience-heading}
 
 STRM Privacy
 {.experience-company}
 
-August 2021 - Present
+August 2021 - March 2024
 {.experience-dates}
 Rotterdam, The Netherlands
 {.experience-location}
