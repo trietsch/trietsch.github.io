@@ -19,7 +19,9 @@ March 2024 - present
 Utrecht, The Netherlands (hybrid)
 {.experience-location}
 
-Improving search at bol.
+Improving search at bol. Responsible for developing new features for, maintaining and creating Kotlin Spring Boot
+applications, Apache Beam / Dataflow pipelines, BigQuery scheduled queries, Airflow instances and Python Machine
+Learning applications (PyTorch, Flair).
 
 ---
 ### Senior Software Engineer, Architect & Team Lead
