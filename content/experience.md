@@ -8,13 +8,30 @@ name = "Robin Trietsch"
 
 ## Experience
 ---
+### Senior Data Engineer
+{.experience-heading}
+
+Fudura
+{.experience-company}
+
+February 2025 - present
+{.experience-dates}
+Utrecht, The Netherlands (hybrid)
+{.experience-location}
+
+Architect and implement a data platform for collection of energy device telemetry. Energy assets include batteries, PV/Solar inverters, EV charging stations, meters and Energy Management Systems.
+End goal is to collect telemetry data from various data sources, both push and pull based, in order to visualize the sensor data, alert on the data and support triage employees in their day-to-day tasks.
+This is a greenfield project, where I have a joint responsibility for the architecture and implementation.
+Technologies include: Python, Terraform, ClickHouse, Azure (Event Hub, Service Bus, Container Apps, Key Vault, and more), Azure DevOps, Grafana. 
+
+---
 ### Senior Software Engineer
 {.experience-heading}
 
 bol
 {.experience-company}
 
-March 2024 - present
+March 2024 - January 2025
 {.experience-dates}
 Utrecht, The Netherlands (hybrid)
 {.experience-location}
