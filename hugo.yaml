@@ -3,7 +3,7 @@ title: Robin Trietsch
 languageCode: en-us
 theme: hello-friend-ng
 paginate: 10
-copyright: 'Phone: <a href="tel:+31630561402">+31 6 30 56 14 02</a></br>CoC: <a href="https://www.kvk.nl/zoeken/handelsregister/?q=92661289" target="_blank">92661289</a>
+copyright: 'Phone: <a href="tel:+31630561402">+31 6 30 56 14 02</a></br>CoC: <a href="https://www.kvk.nl/zoeken/handelsregister/?q=92661289" target="_blank">92661289</a>'
 params:
   author:
     name: Robin Trietsch
