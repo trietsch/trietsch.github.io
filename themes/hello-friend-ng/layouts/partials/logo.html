@@ -1,0 +1,19 @@
+<a href="{{ if .Site.Params.Logo.LogoHomeLink }}{{ .Site.Params.Logo.LogoHomeLink }}{{ else }}{{ .Site.BaseURL | relLangURL }}{{ end }}" style="text-decoration: none;">
+    <div class="logo">
+        {{ if or (.Site.Params.Logo.path) (.Site.Params.Logo.templatePath) }}
+            <div id="logo-wrapper">
+                <img id="logo" alt="{{ .Site.Params.Logo.alt }}" template-src="{{ .Site.Params.Logo.templatePath }}"/>
+                <a id="anchor-banana" href="/banana"></a>
+            </div>
+        {{ else }}
+            <span class="logo__mark">{{ with .Site.Params.Logo.logoMark }}{{ . }}{{ else }}>{{ end }}</span>
+            <span class="logo__text {{ with.Site.Params.Logo.logoCursorPathname}}logo__pathname{{ end }}">
+                {{ with .Site.Params.Logo.logoText }}{{ . }}{{ else }}hello{{ end }}</span>
+            <span class="logo__cursor" style=
+                  "{{ with.Site.Params.Logo.logoCursorDisabled }}visibility:hidden;{{ end }}
+                   {{ with.Site.Params.Logo.logoCursorColor    }}background-color:{{ . }};{{ end }}
+                   {{ with.Site.Params.Logo.logoCursorAnimate  }}animation-duration:{{ . }};{{ end }}">
+            </span>
+        {{ end }}
+    </div>
+</a>
